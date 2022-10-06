@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Greets from './components/Greetings';
+import Welcome from './components/Welcome';
+import Message from './components/message';
+import Counter from './components/counter';
+import FunctionClicks from './components/FunctionClicks';
+import ClassClick from './components/ClassClick';
+import EventBinding from './components/EventBinding';
+import EventBindingTwo from './components/EventBindingTwo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Greets name="Tony"/>
+    <Welcome name="chinwizu"/>
+    <Message/>
+    <Counter/>
+    <FunctionClicks/>
+    <ClassClick/>
+    <EventBinding/>
+    <EventBindingTwo/>
     </div>
   );
 }
