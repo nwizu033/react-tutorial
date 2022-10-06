@@ -6,7 +6,7 @@ class EventBindingTwo extends Component {
         super(props)
       
         this.state = {
-           message : "welcome arrow"
+           message : "welcome arrow yeah"
         }
       }
 
