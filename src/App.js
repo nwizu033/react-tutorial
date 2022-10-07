@@ -8,6 +8,12 @@ import FunctionClicks from './components/FunctionClicks';
 import ClassClick from './components/ClassClick';
 import EventBinding from './components/EventBinding';
 import EventBindingTwo from './components/EventBindingTwo';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Forms from './components/Forms';
+import Fragments from './components/Fragments';
 function App() {
   return (
     <div className="App">
@@ -19,6 +25,12 @@ function App() {
     <ClassClick/>
     <EventBinding/>
     <EventBindingTwo/>
+    <ParentComponent/>
+    <UserGreeting/>
+    <NameList/>
+    <Stylesheet primary ={true} /> 
+    <Forms/>
+    <Fragments/>
     </div>
   );
 }
